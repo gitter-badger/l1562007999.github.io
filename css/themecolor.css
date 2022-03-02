@@ -421,6 +421,7 @@ hr {
 .one-tag-list>ul>li>a {
   color: var(--common-color) !important;
 }
+
 /* ================================================ Archive Menu End ======================================================= */
 /* ==================================================== Post Start ========================================================= */
 .body--light {
@@ -969,6 +970,7 @@ textarea.gt-header-textarea::placeholder {
   width: 60px;
   min-width: 60px;
   height: 60px;
+  background-color: var(--toggle-hover);
 }
 
 .material-icons {

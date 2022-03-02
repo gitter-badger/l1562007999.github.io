@@ -139,7 +139,7 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="http://yoursite-url/categories/">
+  <link rel="canonical" href="http://liangzhenfa.gitee.io/sammys-blog/categories/">
   <title>
     
       Categories - Hell or High Water
@@ -249,18 +249,7 @@
           <li>
             <a href="/archive/">
               
-              归档
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/about/">
-              
-              关于
+              时间线
               
               
             </a>
@@ -272,6 +261,17 @@
             <a href="/categories/">
               
               分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于我
               
               
             </a>
@@ -293,7 +293,7 @@
           
           <li>
             <a class="popup-trigger">
-              <span class="search-icon"></span>搜索</a>
+              <span class="search-icon"></span>搜一搜</a>
           </li>
           
 
@@ -365,6 +365,10 @@
     }
 
     
+      #signature {/*signature*/
+        background-image: url('/img/signature/sammy3.png');
+      }
+    
   </style>
 
 
@@ -433,17 +437,15 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#hexo" title="hexo" rel="1">hexo</a>
-        
-        <a href="#博客维护方法" title="博客维护方法" rel="1">博客维护方法</a>
+        <a href="#教程" title="教程" rel="3">教程</a>
         
       </div>
 
       <!-- 标签列表 -->
       
       <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="hexo">
-          <span class="tag-text">hexo</span>
+        <span class="fa fa-tag listing-seperator" id="教程">
+          <span class="tag-text">教程</span>
         </span>
         
         <!-- <li class="listing-item">
@@ -468,28 +470,43 @@
         </div>
         <hr>
         
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="博客维护方法">
-          <span class="tag-text">博客维护方法</span>
-        </span>
-        
         <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
                   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                   </li> -->
         <div class="post-preview">
-          <a href="/undefined/Hexo博客的维护/">
+          <a href="/undefined/修改heox主题的夜间按钮背景/">
             <h2 class="post-title">
-              Hexo博客的维护
+              修改heox主题的夜间按钮背景
               
               -- 
               
             </h2>
             
             <h3 class="post-subtitle">
-              放心记录
+              为夜间主题切换按钮添加灰色背景
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/undefined/正确为你的博客加入图片/">
+            <h2 class="post-title">
+              正确为你的博客加入图片
+              
+              -- 
+              
+            </h2>
+            
+            <h3 class="post-subtitle">
+              如何正确为你的一篇博客插入图片并在网站中显示呢?
             </h3>
             
           </a>
@@ -642,7 +659,7 @@ https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
 <!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
 
 <!-- jquery.tagcloud.js -->
-<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://yoursite-url/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://liangzhenfa.gitee.io/sammys-blog/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
 start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
 
 
@@ -663,7 +680,7 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
             <span class="search-icon">
               <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
             </span>
-            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+            <input autocomplete="off" placeholder="搜一搜..." type="text" id="local-search-input">
           </div>
         </div>
         <div id="local-search-result"></div>
